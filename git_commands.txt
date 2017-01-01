@@ -1,0 +1,5 @@
+git log - to see the list of committs 
+git init - create new git repository
+git status - to see about git repository
+git add - to add file to staging area 
+
