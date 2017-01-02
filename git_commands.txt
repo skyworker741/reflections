@@ -1,5 +1,10 @@
-git log - to see the list of committs 
-git init - create new git repository
+git clone -  to clone remote git repository
+git log -    to see the list of committs 
+git diff -   to compare any 2 commits
+git checkout - go to the file for particular commit 
+git init -   create new git repository
 git status - to see about git repository
-git add - to add file to staging area 
+git add -    to add file to staging area 
+git reset -  to remove file from staging area
+git commit - save new commit
 
