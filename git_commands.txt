@@ -1,10 +1,15 @@
 git clone -  to clone remote git repository
 git log -    to see the list of committs 
-git diff -   to compare any 2 commits
+git diff id1 id2 -   to compare any 2 commits
 git checkout - go to the file for particular commit 
 git init -   create new git repository
 git status - to see about git repository
 git add -    to add file to staging area 
 git reset -  to remove file from staging area
 git commit - save new commit
+
+git diff - compare working directory and not commited changes in staged area
+git diff --staged  - show uncommited changes
+git reset --hard   - reset all not commited changes in working directory and staged area
+
 
