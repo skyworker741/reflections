@@ -1,3 +1,5 @@
+Lesson 1 & 2
+
 git clone -  to clone remote git repository
 git log -    to see the list of committs 
 git diff id1 id2 -   to compare any 2 commits
@@ -11,5 +13,35 @@ git commit - save new commit
 git diff - compare working directory and not commited changes in staged area
 git diff --staged  - show uncommited changes
 git reset --hard   - reset all not commited changes in working directory and staged area
+
+git checkout master - to return to the latest commit / master version of file
+
+git branch  - shows current branches
+git branch argument - creates new branch with name argument
+git check out branch_name - go to the branch with the specified name, all commits will be saved in this branch, not in the master branch
+
+git log --graph --oneline master argument  - to visualise difference between commits in 2 branches
+
+git checkout -b new_branch_name  - creates new branch for any commit made in detached head mode
+
+git merge master other_branch_name - merging other branch into master branch 
+
+git show commit_id - show the changes introduced by commit compared to its parent
+
+git branch -d branch_name  - delete the branch with specified name
+
+git merge --abort  -  Restore your files to their state before you started the merge by running 
+
+git log --graph   
+
+In case of merging conflicts run the following commants after resolving conflict
+1) git status
+2) git add file_name
+3) git status 
+4) git commit
+
+Lesson 3
+
+
 
 
